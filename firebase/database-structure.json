@@ -1,0 +1,65 @@
+{
+  "residentes": {
+    "ABC123": {
+      "nombre": "Juan Pérez González",
+      "departamento": "101",
+      "telefono": "+51987654321",
+      "email": "juan.perez@email.com",
+      "activo": true,
+      "fecha_registro": "2024-06-16T10:30:00Z",
+      "observaciones": "Residente propietario"
+    },
+    "DEF456": {
+      "nombre": "María González López",
+      "departamento": "205", 
+      "telefono": "+51987654322",
+      "email": "maria.gonzalez@email.com",
+      "activo": true,
+      "fecha_registro": "2024-06-16T11:00:00Z",
+      "observaciones": "Residente inquilina"
+    },
+    "GHI789": {
+      "nombre": "Carlos Rodríguez Mendoza",
+      "departamento": "312",
+      "telefono": "+51987654323",
+      "email": "carlos.rodriguez@email.com", 
+      "activo": true,
+      "fecha_registro": "2024-06-16T11:30:00Z",
+      "observaciones": "Residente propietario"
+    },
+    "JKL012": {
+      "nombre": "Ana López Silva", 
+      "departamento": "408",
+      "telefono": "+51987654324",
+      "email": "ana.lopez@email.com",
+      "activo": true,
+      "fecha_registro": "2024-06-16T12:00:00Z",
+      "observaciones": "Residente propietaria"
+    }
+  },
+  
+  "configuracion": {
+    "sistema": {
+      "version": "2.0",
+      "fecha_actualizacion": "2024-06-16T00:00:00Z",
+      "mantenimiento": false,
+      "modo_debug": false
+    },
+    "sensores": {
+      "distancia_deteccion_cm": 30,
+      "timeout_procesamiento_ms": 20000,
+      "cooldown_deteccion_ms": 5000
+    },
+    "tranquera": {
+      "tiempo_abierto_autorizado_ms": 7000,
+      "tiempo_abierto_temporal_ms": 6000,
+      "tiempo_abierto_emergencia_ms": 5000
+    },
+    "alertas": {
+      "sms_habilitado": true,
+      "email_habilitado": false,
+      "telefono_seguridad": "+51987654321",
+      "telefono_admin": "+51987654320"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "residentes": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$placa": {
+        ".validate": "newData.hasChildren(['nombre', 'departamento', 'activo'])"
+      }
+    },
+    "accesos": {
+      ".read": "auth != null", 
+      ".write": "auth != null",
+      "$timestamp": {
+        ".validate": "newData.hasChildren(['placa', 'tipo', 'fecha'])"
+      }
+    },
+    "vehiculos_temporales": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "eventos_sistema": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "configuracion": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "estadisticas": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

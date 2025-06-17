@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env
+venv/
+*.sqlite3
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Arduino / ESP32
+*.hex
+*.elf
+*.bin
+*.eep
+*.ino.*
+*.d
+*.dep
+*.o
+*.a
+*.map
+*.srec
+*.lst
+*.obj
+*.log
+*.tmp
+*.csv
+*.bak
+*.swp
+
+# Arduino IDE build folders
+build/
+.pio/
+.pioenvs/
+.piodeps/
+libdeps/
+
+# PlatformIO
+/.pio
+/.vscode/.browse.c_cpp.db
+
+# Node modules (si usaras algo de frontend)
+node_modules/
+
+# Firebase cache/local emulators (opcional)
+.firebase/
+firestore.indexes.json
+firestore.rules
+
+# General OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.orig
